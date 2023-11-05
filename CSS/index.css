@@ -1,0 +1,138 @@
+ 
+ /* welcome-section */
+
+  .menu-icon {
+   display: block;
+   margin-top: 20px;
+   
+ }
+
+ .welcome-section {
+    padding: 0 50px;
+ }
+
+
+
+ /* Featured categories */
+
+ .featured-categories{
+    background: #E4BF94;
+    padding: 20px 0;
+ }
+ .categories {
+    margin: 70px 0;
+ }
+
+ .featured-categories h2 {
+    text-align: center;
+    font-size: 2.5rem;
+ }
+
+ .img__wrap {
+  position: relative;
+ 
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: #E4BF94;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+ /* Featured Products */
+
+ .small-container h2 {
+    margin: 20px 8px;
+ }
+
+ .rating{ 
+    color: #E5C1BD;
+ }
+
+ /* offer */
+ .offer {
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+ }
+
+ .col-2 .offer-img {
+    padding: 50px;
+ }
+
+ /* Testimonial */
+
+ .testimonial {
+    padding-top: 100px;
+    background-color: white;
+ }
+
+  .testimonial .col-3 {
+     text-align: center;
+     padding: 40px 20px;
+     box-shadow: 0 0 20px 0px rbga(0,0,0,0.1);
+     cursor: pointer;
+     transition: transform 0.5s;
+ }
+
+   .testimonial .col-3 img{
+     width: 100px;
+     height: 100px;
+     margin-top: 20px;
+     border-radius: 50%;
+ }
+
+    .testimonial .col-3:hover{
+     transform: translateY(-10px);
+ }
+
+ .fa-solid.fa-quote-left{
+    font-size: 34px;
+    color: #E5C1BD;
+ }
+
+   .testimonial .col-3 p{
+    font-size: 12px;
+    margin: 10px 0;
+ }
+
+    .testimonial .col-3 h3{
+    font-weight: 600px;
+    font-size: 16px;
+    margin: 10px 0;
+ }
+
+ 
+ /* Scroll to the top */
+ .scroll-to-the-top {
+    border: 1px solid black;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ .scroll-to-the-top button {
+   background-color: var(--secondary);
+   padding: 20px;
+   border-radius: 16px;
+   margin-left: 60px;
+    
+ }
+
