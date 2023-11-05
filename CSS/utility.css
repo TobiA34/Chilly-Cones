@@ -22,11 +22,19 @@ a {
     text-decoration: none;
 }
 
+p {
+  font-size: 1.5rem;
+}
 
 h2 {
   text-align: center;
   margin: 20px 0;
 }
+
+h4 {
+  font-size: 1rem;
+}
+
 
 :root {
   --primary: #ECD5E0;
@@ -45,13 +53,12 @@ h2 {
     padding: 20px 20px;
     min-width: 200px;
     transition: transform 0.5s;
-     
+    text-align: center;
   }
 
  .col-4 img {
     max-width: 100%;
     height: 200px;
-
   }
 
  .col-4:hover {
@@ -72,9 +79,7 @@ h2 {
     margin: 10px 0;
 }
 
-.round-image {
-    border-radius: 16px;
-}
+ 
 
 .col-2 img {
     max-width: 100%;
@@ -202,6 +207,9 @@ header .header-right .hamburger div {
     background: black;
 }
 @media only screen and (max-width: 800px) {
+   p {
+  font-size: 1rem;
+}
     header {
         padding: 0 20px;
     }
@@ -242,12 +250,18 @@ header .header-right .hamburger div {
      text-align: center;
 }
 
- .round-image {
-   width: 600px;
-   height: 300px;
- }
 }
 @media only screen and (max-width: 600px) {
+
+  p {
+  font-size: 1rem;
+}
+
+  #welcome-img {
+    width: 100%;
+  }
+
+
     nav .login-signup {
         display: block;
         margin-top: 20px;
